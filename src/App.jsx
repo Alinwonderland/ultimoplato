@@ -243,7 +243,7 @@ const Home = ({ setPage }) => {
           />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
             {[
-              { icon: "🤖", title: "La IA elige por tus clientes", text: "Cuando alguien pregunta a ChatGPT o Google "¿dónde ceno esta noche?" la respuesta depende de tus reseñas. Sin reseñas recientes, tu restaurante no existe para la inteligencia artificial.", color: C.black },
+              { icon: "🤖", title: "La IA elige por tus clientes", text: "Cuando alguien pregunta a ChatGPT o Google ^¿dónde ceno esta noche?^ la respuesta depende de tus reseñas. Sin reseñas recientes, tu restaurante no existe para la inteligencia artificial.", color: C.black },
               { icon: "📉", title: "Cada reseña ignorada es una mesa vacía", text: "El 40% de los clientes descarta un restaurante con reseñas negativas sin responder. Cada reseña sin contestar es un cliente que elige a tu competencia.", color: C.green },
               { icon: "🏆", title: "Tu competencia ya se está moviendo", text: "La diferencia entre aparecer en el Top 3 o en el puesto 8 es de apenas 15 reseñas al mes. Eso es exactamente lo que Último Plato consigue.", color: C.black },
             ].map((card, i) => (
